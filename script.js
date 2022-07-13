@@ -75,7 +75,7 @@ var vara = new Vara(
       duration: 4000
     },
     {
-      text: "Please give me a signal, I'll come ! ",
+      text: "Click me ! ",
       color: "#421e82",
       id: "github"
     }
@@ -98,6 +98,6 @@ vara.ready(function() {
   });
   vara.get("github").container.style.cursor = "pointer";
   vara.get("github").container.onclick = function() {
-    document.querySelector("#link").click();
+    document.querySelector("https://www.youtube.com/watch?v=HwEmeYgqins").click();
   };
 });

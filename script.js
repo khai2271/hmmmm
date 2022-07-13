@@ -20,7 +20,7 @@ var vara = new Vara(
       duration: 4000
     },
     {
-      text: "Maybe i fall for someone,the first vibrations in my life ",
+      text: "Maybe i fall for someone, the first vibrations in my life ",
       y: 150,
       fromCurrentPosition: { y: false },
       delay: 3000,
@@ -75,7 +75,7 @@ var vara = new Vara(
       duration: 4000
     },
     {
-      text: "Click me ! ",
+      text: "Goodluck ! ",
       color: "#421e82",
       id: "github"
     }
@@ -98,6 +98,6 @@ vara.ready(function() {
   });
   vara.get("github").container.style.cursor = "pointer";
   vara.get("github").container.onclick = function() {
-    document.querySelector("https://www.youtube.com/watch?v=HwEmeYgqins").click();
+    document.querySelector("#link").click();
   };
 });

@@ -55,6 +55,20 @@ var vara = new Vara(
       duration: 4000
     },
     {
+     text: "I want to send concern but",
+      y: 150,
+      fromCurrentPosition: { y: false },
+      delay: 3000,
+      duration: 4000
+    },
+     {
+     text: "I don't have the courage to do it",
+      y: 150,
+      fromCurrentPosition: { y: false },
+      delay: 3000,
+      duration: 4000
+    },
+    {
       text: "I'm so coward to say that",
       y: 150,
       fromCurrentPosition: { y: false },
@@ -75,7 +89,7 @@ var vara = new Vara(
       duration: 4000
     },
     {
-      text: "Goodluck ! ",
+      text: "......",
       color: "#421e82",
       id: "github"
     }
